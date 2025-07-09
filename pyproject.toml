@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "carcara"
+version = "0.0.1"
+authors = [
+  { name="Leandro Seixas", email="leandro.fisica@gmail.com" },
+]
+description = "fastatoms"
+readme = "README.md"
+license = {file = "LICENSE"} 
+requires-python = ">=3.9"
+dependencies = [
+    'numpy',
+    'pandas',
+    'ase'
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Physics"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/leseixas/carcara"
